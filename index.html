@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- metadatos -->
+  <meta charset="UTF-8">
+  <meta lang="es">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Bruno O. Ortuño">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- FavIcon -->
+  <link rel="icon" type="image/x-icon" href="images/pngegg.png">
+  <!-- Titulo -->
+  <title> Pagina de Comunidad y Ayuda </title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="estilos.css" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- cloudflare Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Goggle Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <!-- Open Graph -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="http://www.example.com" /> <!-- (example url for now) -->
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+</head>
+
+<body>
+  <nav>
+    <label id="hamburger" for="toggle">&#9776</label>
+    <input type="checkbox" id="toggle">
+    <div class="menu">
+      <div class="logo"></div>
+      <div class="container-lista">
+        <ul class="nav-lista">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Objetivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#objetivos">Objetivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item idiomas">
+            <span class="en">English</span>
+            <input type="checkbox" class="check">
+            <span class="es">Español</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid hero">
+    <section class="principal seccion">
+      <h1>Comunidad "X"</h1>
+      <h2>Nos dedicamos a sdasdasd...</h2>
+      <div id="quienes-somos" class="seccion">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu porta metus, sit amet ornare sem. Aenean
+          auctor mauris turpis. Aenean luctus ornare felis, et auctor augue fringilla ac. Curabitur sapien lorem,
+          aliquam
+          ut quam eleifend, blandit rutrum mi. Nulla pellentesque fringilla est nec volutpat. Morbi suscipit nisl eget
+          neque facilisis molestie. Suspendisse fermentum nibh quis maximus dapibus. Praesent luctus nibh et sem
+          maximus,
+          vitae tempor ligula ullamcorper. Nunc ut magna sodales, lacinia ligula eget, pulvinar lectus. Duis vitae neque
+          arcu. Donec quis augue est. Fusce ultricies enim vitae nunc ultricies, non posuere sapien tempor. Quisque
+          tempor
+          tellus commodo odio commodo, vitae placerat neque facilisis. Integer ornare lacus eu diam aliquet, eget tempus
+          elit feugiat.</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="objetivos" class="seccion">
+        <h2 class="seccion-titulo">Objetivos:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu porta metus, sit amet ornare sem. Aenean
+          auctor mauris turpis. Aenean luctus ornare felis, et auctor augue fringilla ac. Curabitur sapien lorem,
+          aliquam
+          ut quam eleifend, blandit rutrum mi. Nulla pellentesque fringilla est nec volutpat. Morbi suscipit nisl eget
+          neque facilisis molestie. Suspendisse fermentum nibh quis maximus dapibus. Praesent luctus nibh et sem
+          maximus,
+          vitae tempor ligula ullamcorper. Nunc ut magna sodales, lacinia ligula eget, pulvinar lectus. Duis vitae neque
+          arcu. Donec quis augue est. Fusce ultricies enim vitae nunc ultricies, non posuere sapien tempor. Quisque
+          tempor
+          tellus commodo odio commodo, vitae placerat neque facilisis. Integer ornare lacus eu diam aliquet, eget tempus
+          elit feugiat.</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="testimonios" class="seccion">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="">Estos son algunos testimonios de nuestros pacientes...</h3>
+        <!-- Carousel -->
+        <div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="images\cliente1.svg" alt="foto de cliente 1">
+                <p class="testimonio-texto english">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rutrum
+                  rhonelibero tellus. Don ornare magna. Aenean nisi ante, finibus non faucibus a, volutpat vel lorem.
+                  Morbi nec commodo tortor. Duis vulputate tempor mauris sed ultrices. </p>
+                <div class="testimonio-info">
+                  <p class="nombre_cliente">Gino</p>
+                  <p class="cargo_cliente english">Manager of ProyectosDesarrolloWeb</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" container">
+                <img class="testimonio-imagen rounded-circle" src="images\cliente2.svg" alt="foto de cliente 2">
+                <p class="testimonio-texto english">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rutrum
+                  rhonelibero tellus. Don ornare magna. Aenean nisi ante, finibus non faucibus a, volutpat vel lorem.
+                  Morbi
+                  nec commodo tortor. Duis vulputate tempor mauris sed ultrices. </p>
+                <div class="testimonio-info">
+                  <p class="nombre_cliente">Nora</p>
+                  <p class="cargo_cliente english">Manager of DiseñaMiPaginaWeb</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="images\cliente3.svg" alt="foto de cliente 3">
+                <p class="testimonio-texto english">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rutrum
+                  rhonelibero tellus. Don ornare magna. Aenean nisi ante, finibus non faucibus a, volutpat vel lorem.
+                  Morbi
+                  nec commodo tortor. Duis vulputate tempor mauris sed ultrices. </p>
+                <div class="testimonio-info">
+                  <p class="nombre_cliente">Leonardo</p>
+                  <p class="cargo_cliente english">Director of AprendeAProgramar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden english">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden english">Next</span>
+          </button>
+        </div>
+    </section>
+
+    <section>
+      <div id="contacto" class="seccion"></div>
+
+      <!-- Contacto -->
+
+      <section id="contacto" class="contacto seccion-contacto">
+        <div class="container">
+          <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+              <div class="col-12 col-md-4 seccion-titulo english"> Talk to me!</div>
+              <div class="col-12 col-md-4 descripcion english"> Contact me to start your project, and I will make your
+                vision come true!</div>
+              <div class="col-12 col-md-4">
+                <a href="mailto:x@gmail.com">
+                  <button type="button" class="english">Contact
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+  </div>
+
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+<!-- Footer -->
+<Footer class="footer">
+
+</Footer>
+
+</html>
