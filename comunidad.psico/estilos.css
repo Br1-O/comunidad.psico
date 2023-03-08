@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.logo{
+  height: 160px;
+  width: 160px;
+  background: url(imagenes/modern-real-estate-company-logo-260nw-1916529080.jpg) no-repeat center / cover;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.secciones {
+  background-color: aqua;
+  height: 100vh;
+}
+
+.header {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.navigation {
+  background-color: darkgray;
+  width: 272px;
+  margin-bottom: 5em;
+}
+
+.navigation-item {
+  border: 1px solid black;
+  padding: .2em;
+}
+
+.navigation-item:hover{
+  background-color: rgb(126, 119, 119);
+}
+
+.navigation-item, .navigation-item a {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: black;
+}
+
+.footer {
+  padding-bottom: .1em;
+}
+/* MAIN */
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.principal {
+  padding: 1em;
+}
+
+.article-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: .3em;
+}
+
+.article-p {
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-slider {
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  position: relative;
+}
+
+.container-slider .slider-item img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.container-slider .slider-item #img1{
+  opacity: 1;
+}
+
+.container-sliderRef{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+
+.container-sliderRef .slider-item #img:target{
+  opacity: 1;
+}
+
+.slider-item {
+  list-style-type: none;
+  padding: .3em;
+}
+
+.slider-item a {
+  background-color: cadetblue;
+  padding: .3em .6em ;
+  text-decoration: none;
+  border-radius: 100%;
+  color: black;
+}

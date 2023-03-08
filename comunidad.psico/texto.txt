@@ -1,0 +1,91 @@
+<div class="menu">
+      <div class="logo"></div>
+      <div class="container-lista">
+        <ul class="nav-lista">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Objetivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#objetivos">Objetivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item idiomas">
+            <span class="en">English</span>
+            <input type="checkbox" class="check">
+            <span class="es">Español</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <section>
+      <div id="testimonios" class="seccion">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="">Estos son algunos testimonios de nuestros pacientes...</h3>
+        <!-- Carousel -->
+        <div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="images\cliente1.svg" alt="foto de cliente 1">
+                <p class="testimonio-texto english">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rutrum
+                  rhonelibero tellus. Don ornare magna. Aenean nisi ante, finibus non faucibus a, volutpat vel lorem.
+                  Morbi nec commodo tortor. Duis vulputate tempor mauris sed ultrices. </p>
+                <div class="testimonio-info">
+                  <p class="nombre_cliente">Gino</p>
+                  <p class="cargo_cliente english">Manager of ProyectosDesarrolloWeb</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" container">
+                <img class="testimonio-imagen rounded-circle" src="images\cliente2.svg" alt="foto de cliente 2">
+                <p class="testimonio-texto english">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rutrum
+                  rhonelibero tellus. Don ornare magna. Aenean nisi ante, finibus non faucibus a, volutpat vel lorem.
+                  Morbi
+                  nec commodo tortor. Duis vulputate tempor mauris sed ultrices. </p>
+                <div class="testimonio-info">
+                  <p class="nombre_cliente">Nora</p>
+                  <p class="cargo_cliente english">Manager of DiseñaMiPaginaWeb</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="images\cliente3.svg" alt="foto de cliente 3">
+                <p class="testimonio-texto english">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  rutrum
+                  rhonelibero tellus. Don ornare magna. Aenean nisi ante, finibus non faucibus a, volutpat vel lorem.
+                  Morbi
+                  nec commodo tortor. Duis vulputate tempor mauris sed ultrices. </p>
+                <div class="testimonio-info">
+                  <p class="nombre_cliente">Leonardo</p>
+                  <p class="cargo_cliente english">Director of AprendeAProgramar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden english">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden english">Next</span>
+          </button>
+        </div>
+    </section>
