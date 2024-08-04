@@ -34,12 +34,12 @@
     <img src="[images/logo.png](https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.png)" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center"> Bakery Store · Panaderia artesanal </h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Tienda online para una panaderia artesanal
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://br1-o.github.io/bakery-store"><strong> Ver sitio en producción »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
@@ -54,34 +54,33 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de contenido </summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project"> Sobre el proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with"> Construido con</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started"> Cómo instalarlo</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites"> Pre requisitos</a></li>
+        <li><a href="#installation"> Instalación </a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#usage"> Uso </a></li>
+    <li><a href="#roadmap"> Guía </a></li>
+    <li><a href="#license"> Licencia </a></li>
+    <li><a href="#contact"> Contacto </a></li>
+    <li><a href="#acknowledgments"> Reconocimientos </a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre este proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
