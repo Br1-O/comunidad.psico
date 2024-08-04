@@ -100,15 +100,20 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
+[![JavaScript][JavaScript.com]][JavaScript-url]
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
+[![CSS][CSS.com]][CSS-url]
+[![HTML][HTML.com]][HTML-url]
 
-* [![HTML][Next.js]][Next-url]
-* [![CSS][React.js]][React-url]
-* [![Bootstrap][Vue.js]][Vue-url]
-* [![BootStrap][Angular.io]][Angular-url]
-* [![JavaScript][Svelte.dev]][Svelte-url]
-* [![Javascript][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+[CSS.com]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+[HTML.com]: https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
