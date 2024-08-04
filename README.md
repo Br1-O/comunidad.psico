@@ -165,27 +165,19 @@ De esta forma se evita realizar una nueva petición cada vez que se requieran lo
 
 ## Diseño
 
-![Font: Josefin Sans](https://img.shields.io/badge/Font-Josefin%20Sans-blue)
-![Main Color](https://img.shields.io/badge/Main%20Color-rgb(0%2C%200%2C%200)-black)
-![Font Secondary Color](https://img.shields.io/badge/Font%20Secondary%20Color-rgb(81%2C%2080%2C%2080)-grey)
-![Font Primary Color](https://img.shields.io/badge/Font%20Primary%20Color-rgb(237%2C%20236%2C%20238)-lightgrey)
-![Secondary Color](https://img.shields.io/badge/Secondary%20Color-rgb(67%2C%2075%2C%2082)-darkgrey)
-![Footer Background Color](https://img.shields.io/badge/Footer%20Background%20Color-rgb(17%2C%2017%2C%2017)-black)
-![Footer H4 Color](https://img.shields.io/badge/Footer%20H4%20Color-white-white)
-
-## Color Palette
+## Paleta de colores
 
 La paleta de colores usada para este proyecto fue:
 
-* **Main Color**: `rgb(0, 0, 0)`
-* **Font Secondary Color**: `rgb(81, 80, 80)`
-* **Font Primary Color**: `rgb(237, 236, 238)`
-* **Secondary Color**: `rgb(67, 75, 82)`
-* **Footer Background Color**: `rgb(17, 17, 17)`
+* ![Main Color](https://img.shields.io/badge/Main%20Color-rgb(0%2C%200%2C%200)-black)
+* ![Secondary Color](https://img.shields.io/badge/Secondary%20Color-rgb(67%2C%2075%2C%2082)-darkgrey)
+* ![Font Primary Color](https://img.shields.io/badge/Font%20Primary%20Color-rgb(237%2C%20236%2C%20238)-lightgrey)
+* ![Font Secondary Color](https://img.shields.io/badge/Font%20Secondary%20Color-rgb(81%2C%2080%2C%2080)-grey)
+* ![Footer Background Color](https://img.shields.io/badge/Footer%20Background%20Color-rgb(17%2C%2017%2C%2017)-black)
 
 ## Font
 
-El font usado para este proyecto fue: **Josefin Sans**.
+El font usado para este proyecto fue: ![Font: Josefin Sans](https://img.shields.io/badge/Font-Josefin%20Sans-blue)
 
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
