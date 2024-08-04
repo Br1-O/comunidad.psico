@@ -107,6 +107,12 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 * [![AOS][AOS.com]][AOS-url]
 * [![SweetAlert][SweetAlert.com]][SweetAlert-url]
 
+Personalmente se optó para el desarrollo de este proyecto el uso de:
+
+[![VSCode][VSCode.com]][VSCode-url]
+[![LiveServer][LiveServer.com]][LiveServer-url]
+
+
 [JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
@@ -125,44 +131,59 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 [SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
 [SweetAlert-url]: https://sweetalert.js.org/
 
-[SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
-[SweetAlert-url]: https://sweetalert.js.org/
+[VSCode.com]: https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge
+[VSCode-url]: https://code.visualstudio.com/
+
+[LiveServer.com]: https://img.shields.io/badge/LiveServer-4993CD?logo=visual-studio-code&logoColor=white&style=for-the-badge
+[LiveServer-url]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Cómo comenzar a utilizarlo
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Para descargar este proyecto y usarlo de forma local puede seguir los siguientes pasos:
 
-### Prerequisites
+### Pre requisitos
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+No se requiere tener ningún tipo de software especial instalado, bastando con un simple navegador web. 
+<br>
+Aunque sí se recomienda el uso de algún IDE, programa especializado para facilitar el desarrollo y visualización de código.
+<br>
 
-### Installation
+### Instalación
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+A continuación se muestran los pasos a seguir para instalar este proyecto.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+# Usando Git
+
+1. Navegar al directorio donde deseas instalar el proyecto
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   cd /ruta/donde/deseas/instalar
    ```
-3. Install NPM packages
+2. Clonar el repositorio
    ```sh
-   npm install
+   git clone https://github.com/Br1-O/bakery-store
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+ 3. Navegar al directorio del proyecto
+ ```sh
+cd bakery-store
+ ```
+4. Abrir el archivo index.html en tu navegador web preferido
+
+# Descarga manual desde Github
+
+1. Descargar el archivo .zip desde GitHub: [Link de descarga](https://github.com/Br1-O/bakery-store/archive/refs/heads/main.zip)
+2. Descomprimir el archivo .zip
+   ```sh
+   unzip bakery-store-main.zip
    ```
+ 3. Navegar al directorio donde fue descomprimido
+ ```sh
+cd bakery-store-main
+ ```
+4. Abrir el archivo index.html en tu navegador web preferido
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
