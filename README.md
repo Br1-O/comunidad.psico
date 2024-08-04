@@ -96,7 +96,7 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Desarrollado con:
+## Desarrollado con:
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
@@ -186,7 +186,6 @@ Bakery/
 
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
-- - -
 
 Si se desea, se puede descargar este proyecto y usarlo de forma local siguiendo los siguientes pasos:
 
