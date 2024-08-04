@@ -97,7 +97,7 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 
 ### Desarrollado con:
-- - 
+- - -
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
@@ -158,10 +158,39 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Estructura del Proyecto
+- - -
+
+La estructura del proyecto está organizada de la siguiente manera:
+
+```plaintext
+Bakery/
+│── index.html
+├── assets/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Title.js
+│   │   └── ...
+│   ├── models/
+│   │   └── utils/
+│   │       └── ProductsUtils.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Category.js
+│   │   └── Product.js
+│   ├── routing/
+│   │   ├── Router.js
+│   │   └── DynamicRouting.js
+│   ├── App.js
+│   └── index.js
+└── README.md
+```
+
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
+- - -
 
-Para descargar este proyecto y usarlo de forma local puede seguir los siguientes pasos:
+Si se desea, se puede descargar este proyecto y usarlo de forma local siguiendo los siguientes pasos:
 
 ### Pre requisitos
 
