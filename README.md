@@ -169,7 +169,6 @@ De esta forma se evita realizar una nueva petición cada vez que se requieran lo
 
 La paleta de colores usada para este proyecto fue:
 
-![Font: Josefin Sans](https://img.shields.io/badge/Font-Josefin%20Sans-blue) <br>
 ![Main Color](https://img.shields.io/badge/Main%20Color-rgb(0%2C%200%2C%200)-black) <br>
 ![Secondary Color](https://img.shields.io/badge/Secondary%20Color-rgb(67%2C%2075%2C%2082)-darkgrey) <br>
 ![Font Primary Color](https://img.shields.io/badge/Font%20Primary%20Color-rgb(237%2C%20236%2C%20238)-lightgrey) <br>
