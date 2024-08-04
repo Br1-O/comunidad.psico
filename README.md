@@ -125,7 +125,8 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 [SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
 [SweetAlert-url]: https://sweetalert.js.org/
 
-
+[SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
+[SweetAlert-url]: https://sweetalert.js.org/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
