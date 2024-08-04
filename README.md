@@ -106,8 +106,11 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 * [![CSS][CSS.com]][CSS-url]
 * [![HTML][HTML.com]][HTML-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![AOS][AOS.com]][AOS-url]
-* [![SweetAlert][SweetAlert.com]][SweetAlert-url]
+
+#### Librerias para funcionalidades:
+
+[![AOS][AOS.com]][AOS-url]
+[![SweetAlert][SweetAlert.com]][SweetAlert-url]
 
 #### Control de versionado y deploy de demo:
 
@@ -120,40 +123,6 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 [![VSCode][VSCode.com]][VSCode-url]
 [![LiveServer][LiveServer.com]][LiveServer-url]
 
-
-[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
-[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-
-[CSS.com]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge
-[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
-
-[HTML.com]: https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge
-[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge
-[Bootstrap-url]: https://getbootstrap.com
-
-[AOS.com]: https://img.shields.io/badge/AOS-000000?logo=aos&logoColor=white&style=for-the-badge
-[AOS-url]: https://michalsnik.github.io/aos/
-
-[SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
-[SweetAlert-url]: https://sweetalert.js.org/
-
-[GitHub.com]: https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge
-[GitHub-url]: https://github.com/
-
-[Git.com]: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge
-[Git-url]: https://git-scm.com/
-
-[GitHubPages.com]: https://img.shields.io/badge/GitHub_Pages-222?logo=github&logoColor=white&style=for-the-badge
-[GitHubPages-url]: https://pages.github.com/
-
-[VSCode.com]: https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge
-[VSCode-url]: https://code.visualstudio.com/
-
-[LiveServer.com]: https://img.shields.io/badge/LiveServer-4993CD?logo=visual-studio-code&logoColor=white&style=for-the-badge
-[LiveServer-url]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -163,26 +132,55 @@ La estructura del proyecto está organizada de la siguiente manera:
 
 ```plaintext
 Bakery/
-│── index.html
+├── index.html
 ├── assets/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── Title.js
-│   │   └── ...
-│   ├── models/
-│   │   └── utils/
-│   │       └── ProductsUtils.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── Category.js
-│   │   └── Product.js
-│   ├── routing/
-│   │   ├── Router.js
-│   │   └── DynamicRouting.js
-│   ├── App.js
-│   └── index.js
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── components/
+│   │   ├── json/
+│   │   ├── models/
+│   │   ├── pages/
+│   │   ├── routing/
+│   │   ├── utils/
+│   │   └── validation/
+│   └── resources/
+│       ├── documents/
+│       └── images/
+│           ├── icons/
+│           └── imgs/
+│               ├── billboard/
+│               └── products/
 └── README.md
 ```
+
+* Index.html : 
+Archivo principal de ingreso a la página. Posee openg graph y SEO meta tags en el head, así como los contenedores principales para la navbar en el header, main en el body y footer.
+Tiene además los tags del CDN para librerias adicionales y un tag de script conectando al archivo de routing.js, que se encargará de la carga dinamica del contenido de la página.
+
+* Routing.js / dinamicRouting.js :
+Es el siguiente archivo en ser ejecutado, una vez ingresado al index.html. Se encargará de modificar los contenedores principales del index.html en base al path de la URL, siempre ignorando el #, que se le agrega para evitar conflictos en el desarrollo. Así se mostrará el contenido dinamicamente, siendo la ejecución para los paths de la siguiente forma:
+
+```plaintext
+Github Pages URL
+└── index.html
+    └── routing.js
+        └── assets/js/pages
+            ├── home (para '/')
+            |    └── MAIN.js (para '/')
+            ├── Product 
+            |      └── MAIN.js (para '#tienda/[nombre de categoria]/[producto]')
+            ├── Shop (para '#tienda')
+            |  └── MAIN.js (para '#tienda/[nombre de categoria]')
+            |
+            ├── notAuthorized401.js
+            └── notFound404.js
+```
+
+
+
+
+
 
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
@@ -200,7 +198,7 @@ Aunque sí se recomienda el uso de algún IDE, programa especializado para facil
 
 A continuación se muestran los pasos a seguir para instalar este proyecto.
 
-# Usando Git
+#### Usando Git
 
 > 1. Navegar al directorio donde deseas instalar el proyecto
    ```sh
@@ -219,7 +217,7 @@ A continuación se muestran los pasos a seguir para instalar este proyecto.
 
 > 4. Abrir el archivo index.html en tu navegador web preferido
 
-# Descarga manual desde Github
+#### Descarga manual desde Github
 
 > 1. Descargar el archivo .zip desde GitHub: [Link de descarga](https://github.com/Br1-O/bakery-store/archive/refs/heads/main.zip)
 
@@ -235,34 +233,6 @@ A continuación se muestran los pasos a seguir para instalar este proyecto.
 > 4. Abrir el archivo index.html en tu navegador web preferido
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -309,19 +279,36 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C
+
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+[CSS.com]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+[HTML.com]: https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+[AOS.com]: https://img.shields.io/badge/AOS-000000?logo=aos&logoColor=white&style=for-the-badge
+[AOS-url]: https://michalsnik.github.io/aos/
+
+[SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
+[SweetAlert-url]: https://sweetalert.js.org/
+
+[GitHub.com]: https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge
+[GitHub-url]: https://github.com/
+
+[Git.com]: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge
+[Git-url]: https://git-scm.com/
+
+[GitHubPages.com]: https://img.shields.io/badge/GitHub_Pages-222?logo=github&logoColor=white&style=for-the-badge
+[GitHubPages-url]: https://pages.github.com/
+
+[VSCode.com]: https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge
+[VSCode-url]: https://code.visualstudio.com/
+
+[LiveServer.com]: https://img.shields.io/badge/LiveServer-4993CD?logo=visual-studio-code&logoColor=white&style=for-the-badge
+[LiveServer-url]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
