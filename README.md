@@ -158,8 +158,8 @@ Antes de mostrar dinámicamente el contenido de las páginas, routing.js se enca
 Y una vez que se haya cargado el DOM, traerá desde:
 assets/js/models/utils/ProductsUtils.js
 
-La clase utilitaria de **ProductsUtils**, y ejecutará el método initialize(), que se encargará de traer los datos de los productos desde el archivo de json interno y luego cargarlos en los atributos internos de la clase.
-De esta forma se evita realizar una nueva petición cada vez que se requieran los datos de los productos, ya que todas las páginas traeran el contenido de productos y marquesinas desde ProductsUtils.AllProductsList, que anteriormente habrá realizado la petición a los json emulando la petición inicial a la API.
+La clase utilitaria de **ProductsUtils**, y ejecutará el método **initialize()**, que se encargará de traer los datos de los productos desde el archivo de json interno y luego cargarlos en los atributos internos de la clase.
+De esta forma se evita realizar una nueva petición cada vez que se requieran los datos de los productos, ya que todas las páginas traeran el contenido de productos y marquesinas desde **ProductsUtils.AllProductsList**, que anteriormente habrá realizado la petición a los json emulando la petición inicial a la API.
 
 <p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
