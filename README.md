@@ -177,11 +177,11 @@ De esta forma se evita realizar una nueva petición cada vez que se requieran lo
 
 La paleta de colores usada para este proyecto fue:
 
-- **Main Color**: `rgb(0, 0, 0)`
-- **Font Secondary Color**: `rgb(81, 80, 80)`
-- **Font Primary Color**: `rgb(237, 236, 238)`
-- **Secondary Color**: `rgb(67, 75, 82)`
-- **Footer Background Color**: `rgb(17, 17, 17)`
+* **Main Color**: `rgb(0, 0, 0)`
+* **Font Secondary Color**: `rgb(81, 80, 80)`
+* **Font Primary Color**: `rgb(237, 236, 238)`
+* **Secondary Color**: `rgb(67, 75, 82)`
+* **Footer Background Color**: `rgb(17, 17, 17)`
 
 ## Font
 
