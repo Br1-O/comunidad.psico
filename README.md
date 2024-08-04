@@ -18,12 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!--[![LinkedIn][linkedin-shield]][linkedin-url]-->
 
 
 
@@ -69,11 +64,6 @@
         <li><a href="#installation"> Instalación </a></li>
       </ul>
     </li>
-    <li><a href="#usage"> Uso </a></li>
-    <li><a href="#roadmap"> Guía </a></li>
-    <li><a href="#license"> Licencia </a></li>
-    <li><a href="#contact"> Contacto </a></li>
-    <li><a href="#acknowledgments"> Reconocimientos </a></li>
   </ol>
 </details>
 
@@ -82,16 +72,10 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre este proyecto
 
-[![Product Name Screen Shot][product-screenshot]]([https://example.com](https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg))
-
-  <a href="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg">
-    <img src="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg" alt="Logo" width="80" height="80">
-  </a>
-
 Este proyecto se trata de un Ecommerce para una panaderia, donde el comercio objetivo pueda posicionar y vender de forma online sus productos, contactar con posibles clientes, y hacer saber sobre ellos, su labor e historia. <br><br>
 Al desarrollarlo se puso el foco más que nada en la reutilización de código por medio de componentes e intentando hacerlo lo más intuitivo posible, para que todo pueda ser fácilmente modificable en el futuro. De esta forma es posible adaptar diferentes estilos, separadores y componentes a las diferentes páginas en base a los requerimientos del comercio, sin tener que realizar mayores cambios que la integración de los componentes o datos de variables fácilmente identificables.
 <br><br>
-Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrador para el curso de Desarrollador Fullstack, brindado por [CILSA en Argentina](https://www.cilsa.org/).
+Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrador para el curso de Desarrollador Fullstack, brindado por [CILSA](https://www.cilsa.org/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +107,7 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 [![VSCode][VSCode.com]][VSCode-url]
 [![LiveServer][LiveServer.com]][LiveServer-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 
 ## Estructura del Proyecto
@@ -154,11 +138,11 @@ Bakery/
 └── README.md
 ```
 
-* Index.html : 
+* **Index.html** : 
 Archivo principal de ingreso a la página. Posee openg graph y SEO meta tags en el head, así como los contenedores principales para la navbar en el header, main en el body y footer.
 Tiene además los tags del CDN para librerias adicionales y un tag de script conectando al archivo de routing.js, que se encargará de la carga dinamica del contenido de la página.
 
-* Routing.js / dinamicRouting.js :
+* **Routing.js / dinamicRouting.js** :
 Es el siguiente archivo en ser ejecutado, una vez ingresado al index.html. Se encargará de modificar los contenedores principales del index.html en base al path de la URL, siempre ignorando el #, que se le agrega para evitar conflictos en el desarrollo. Así se mostrará el contenido dinamicamente, siendo la ejecución para los paths de la siguiente forma:
 
 ```plaintext
@@ -173,14 +157,18 @@ Github Pages URL
             ├── Shop (para '#tienda')
             |  └── MAIN.js (para '#tienda/[nombre de categoria]')
             |
-            ├── notAuthorized401.js
-            └── notFound404.js
+            ├── notAuthorized401.js (en caso de un ingreso no autorizado en un area con autentificación)
+            └── notFound404.js (en caso de ingresar un path no incluido en el sistema de routing)
 ```
 
+Antes de mostrar dinámicamente el contenido de las páginas, routing.js se encargará de mostrar la pantalla de carga mientras la ventana siga "on load". 
+Y una vez que se haya cargado el DOM, traerá desde:
+assets/js/models/utils/ProductsUtils.js
 
+La clase utilitaria de **ProductsUtils**, y ejecutará el método initialize(), que se encargará de traer los datos de los productos desde el archivo de json interno y luego cargarlos en los atributos internos de la clase.
+De esta forma se evita realizar una nueva petición cada vez que se requieran los datos de los productos, ya que todas las páginas traeran el contenido de productos y marquesinas desde ProductsUtils.AllProductsList, que anteriormente habrá realizado la petición a los json emulando la petición inicial a la API.
 
-
-
+<p align="right">(<a href="#readme-top">Volver al inicio/a>)</p>
 
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
@@ -232,36 +220,7 @@ A continuación se muestran los pasos a seguir para instalar este proyecto.
    ```
 > 4. Abrir el archivo index.html en tu navegador web preferido
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p align="right">(<a href="#readme-top">Volver al inicio/a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
