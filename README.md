@@ -182,7 +182,7 @@ El font usado para este proyecto fue:
 
 ## Logotipo
 
-El logo fue creado usando ![](https://img.shields.io/badge/Designed%20using-Gemini-purple)
+El logo fue creado usando ![Gemini](https://img.shields.io/badge/Gemini-purple)
 
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
