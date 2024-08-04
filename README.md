@@ -101,9 +101,21 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
 * [![JavaScript][JavaScript.com]][JavaScript-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![CSS][CSS.com]][CSS-url]
 * [![HTML][HTML.com]][HTML-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+[CSS.com]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+[HTML.com]: https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge
+[Bootstrap-url]: https://getbootstrap.com
 
 
 [JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black
