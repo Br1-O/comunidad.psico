@@ -100,7 +100,7 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
-####Desarrollo en general:
+#Desarrollo en general:
 * [![JavaScript][JavaScript.com]][JavaScript-url]
 * [![CSS][CSS.com]][CSS-url]
 * [![HTML][HTML.com]][HTML-url]
@@ -108,19 +108,10 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 * [![AOS][AOS.com]][AOS-url]
 * [![SweetAlert][SweetAlert.com]][SweetAlert-url]
 
-###Control de versionado y deploy de demo:
+#Control de versionado y deploy de demo:
 [![GitHub][GitHub.com]][GitHub-url]
 [![Git][Git.com]][Git-url]
 [![GitHub Pages][GitHubPages.com]][GitHubPages-url]
-
-[GitHub.com]: https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge
-[GitHub-url]: https://github.com/
-
-[Git.com]: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge
-[Git-url]: https://git-scm.com/
-
-[GitHubPages.com]: https://img.shields.io/badge/GitHub_Pages-222?logo=github&logoColor=white&style=for-the-badge
-[GitHubPages-url]: https://pages.github.com/
 
 Personalmente se optó para el desarrollo de este proyecto el uso de:
 
@@ -145,6 +136,15 @@ Personalmente se optó para el desarrollo de este proyecto el uso de:
 
 [SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
 [SweetAlert-url]: https://sweetalert.js.org/
+
+[GitHub.com]: https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge
+[GitHub-url]: https://github.com/
+
+[Git.com]: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge
+[Git-url]: https://git-scm.com/
+
+[GitHubPages.com]: https://img.shields.io/badge/GitHub_Pages-222?logo=github&logoColor=white&style=for-the-badge
+[GitHubPages-url]: https://pages.github.com/
 
 [VSCode.com]: https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge
 [VSCode-url]: https://code.visualstudio.com/
