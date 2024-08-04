@@ -35,13 +35,6 @@
     Tienda online para una panaderia artesanal
     <br />
     <a href="https://br1-o.github.io/bakery-store"><strong> Ver sitio en producción »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -77,7 +70,7 @@ Al desarrollarlo se puso el foco más que nada en la reutilización de código p
 <br><br>
 Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrador para el curso de Desarrollador Fullstack, brindado por [CILSA](https://www.cilsa.org/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 
 ## Desarrollado con:
@@ -168,7 +161,7 @@ assets/js/models/utils/ProductsUtils.js
 La clase utilitaria de **ProductsUtils**, y ejecutará el método initialize(), que se encargará de traer los datos de los productos desde el archivo de json interno y luego cargarlos en los atributos internos de la clase.
 De esta forma se evita realizar una nueva petición cada vez que se requieran los datos de los productos, ya que todas las páginas traeran el contenido de productos y marquesinas desde ProductsUtils.AllProductsList, que anteriormente habrá realizado la petición a los json emulando la petición inicial a la API.
 
-<p align="right">(<a href="#readme-top">Volver al inicio/a>)</p>
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
@@ -220,7 +213,7 @@ A continuación se muestran los pasos a seguir para instalar este proyecto.
    ```
 > 4. Abrir el archivo index.html en tu navegador web preferido
 
-<p align="right">(<a href="#readme-top">Volver al inicio/a>)</p>
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
