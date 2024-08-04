@@ -97,7 +97,7 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 
 ### Desarrollado con:
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - 
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
@@ -177,30 +177,35 @@ A continuación se muestran los pasos a seguir para instalar este proyecto.
 # Usando Git
 
 > 1. Navegar al directorio donde deseas instalar el proyecto
-   ```sh
-   cd /ruta/donde/deseas/instalar
-   ```
+     ```sh
+     cd /ruta/donde/deseas/instalar
+     ```
+
 > 2. Clonar el repositorio
-   ```sh
-   git clone https://github.com/Br1-O/bakery-store
-   ```
+     ```sh
+     git clone https://github.com/Br1-O/bakery-store
+     ```
+
  > 3. Navegar al directorio del proyecto
-   ```sh
-  cd bakery-store
-   ```
+     ```sh
+    cd bakery-store
+     ```
+
 > 4. Abrir el archivo index.html en tu navegador web preferido
 
 # Descarga manual desde Github
 
 > 1. Descargar el archivo .zip desde GitHub: [Link de descarga](https://github.com/Br1-O/bakery-store/archive/refs/heads/main.zip)
+
 > 2. Descomprimir el archivo .zip
-   ```sh
-   unzip bakery-store-main.zip
-   ```
+     ```sh
+     unzip bakery-store-main.zip
+     ```
+
  > 3. Navegar al directorio donde fue descomprimido
-   ```sh
-  cd bakery-store-main
-   ```
+     ```sh
+    cd bakery-store-main
+     ```
 > 4. Abrir el archivo index.html en tu navegador web preferido
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
