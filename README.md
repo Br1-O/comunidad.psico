@@ -180,6 +180,10 @@ La paleta de colores usada para este proyecto fue:
 El font usado para este proyecto fue: 
 * ![Font: Josefin Sans](https://img.shields.io/badge/Font-Josefin%20Sans-blue)
 
+## Logotipo
+
+El logo fue creado usando ![Designed using Gemini](https://img.shields.io/badge/Designed%20using-Gemini-purple)
+
 <!-- GETTING STARTED -->
 ## Cómo comenzar a utilizarlo
 
