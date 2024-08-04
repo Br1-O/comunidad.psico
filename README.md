@@ -105,7 +105,7 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 * [![HTML][HTML.com]][HTML-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&labelColor=555555&style=for-the-badge
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 [CSS.com]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge
