@@ -175,6 +175,13 @@ La paleta de colores usada para este proyecto fue:
 * ![Secondary Color](https://img.shields.io/badge/Secondary%20Color-rgb(67%2C%2075%2C%2082)?style=flat-square&color=434B52)
 * ![Footer Background Color](https://img.shields.io/badge/Footer%20Background%20Color-rgb(17%2C%2017%2C%2017)?style=flat-square&color=111111)
 
+- **Main Color**: `rgb(0, 0, 0)`
+- **Font Secondary Color**: `rgb(81, 80, 80)`
+- **Font Primary Color**: `rgb(237, 236, 238)`
+- **Secondary Color**: `rgb(67, 75, 82)`
+- **Footer Background Color**: `rgb(17, 17, 17)`
+- **Footer H4 Color**: `white`
+
 ## Font
 
 El font usado para este proyecto fue: 
