@@ -100,10 +100,10 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
-[![JavaScript][JavaScript.com]][JavaScript-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-[![CSS][CSS.com]][CSS-url]
-[![HTML][HTML.com]][HTML-url]
+* [![JavaScript][JavaScript.com]][JavaScript-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![CSS][CSS.com]][CSS-url]
+* [![HTML][HTML.com]][HTML-url]
 
 
 [JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black
