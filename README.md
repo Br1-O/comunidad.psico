@@ -104,6 +104,8 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 * [![CSS][CSS.com]][CSS-url]
 * [![HTML][HTML.com]][HTML-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![AOS][AOS.com]][AOS-url]
+* [![SweetAlert][SweetAlert.com]][SweetAlert-url]
 
 [JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
@@ -117,15 +119,13 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=for-the-badge
 [Bootstrap-url]: https://getbootstrap.com
 
+[AOS.com]: https://img.shields.io/badge/AOS-000000?logo=aos&logoColor=white&style=for-the-badge
+[AOS-url]: https://michalsnik.github.io/aos/
 
-[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black
-[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[SweetAlert.com]: https://img.shields.io/badge/SweetAlert-0078D7?logo=sweetalert&logoColor=white&style=for-the-badge
+[SweetAlert-url]: https://sweetalert.js.org/
 
-[CSS.com]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white
-[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 
-[HTML.com]: https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white
-[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
