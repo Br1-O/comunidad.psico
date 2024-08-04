@@ -100,12 +100,27 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
+####Desarrollo en general:
 * [![JavaScript][JavaScript.com]][JavaScript-url]
 * [![CSS][CSS.com]][CSS-url]
 * [![HTML][HTML.com]][HTML-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![AOS][AOS.com]][AOS-url]
 * [![SweetAlert][SweetAlert.com]][SweetAlert-url]
+
+###Control de versionado y deploy de demo:
+[![GitHub][GitHub.com]][GitHub-url]
+[![Git][Git.com]][Git-url]
+[![GitHub Pages][GitHubPages.com]][GitHubPages-url]
+
+[GitHub.com]: https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge
+[GitHub-url]: https://github.com/
+
+[Git.com]: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge
+[Git-url]: https://git-scm.com/
+
+[GitHubPages.com]: https://img.shields.io/badge/GitHub_Pages-222?logo=github&logoColor=white&style=for-the-badge
+[GitHubPages-url]: https://pages.github.com/
 
 Personalmente se optó para el desarrollo de este proyecto el uso de:
 
@@ -167,9 +182,9 @@ A continuación se muestran los pasos a seguir para instalar este proyecto.
    git clone https://github.com/Br1-O/bakery-store
    ```
  3. Navegar al directorio del proyecto
- ```sh
-cd bakery-store
- ```
+   ```sh
+  cd bakery-store
+   ```
 4. Abrir el archivo index.html en tu navegador web preferido
 
 # Descarga manual desde Github
@@ -180,13 +195,12 @@ cd bakery-store
    unzip bakery-store-main.zip
    ```
  3. Navegar al directorio donde fue descomprimido
- ```sh
-cd bakery-store-main
- ```
+   ```sh
+  cd bakery-store-main
+   ```
 4. Abrir el archivo index.html en tu navegador web preferido
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -212,33 +226,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
