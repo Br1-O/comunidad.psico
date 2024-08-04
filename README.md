@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg">
-    <img src="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.png" alt="Logo" width="150" height="150" style="border-radius:15px;">
+    <img src="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.png" alt="Logo" width="200" height="150" style="border-radius:15px;">
   </a>
 
   <h3 align="center"> Bakery Store · Panaderia artesanal </h3>
