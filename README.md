@@ -169,11 +169,11 @@ De esta forma se evita realizar una nueva petición cada vez que se requieran lo
 
 La paleta de colores usada para este proyecto fue:
 
-* ![Main Color](https://img.shields.io/badge/Main%20Color-rgb(0%2C%200%2C%200)-black)
-* ![Secondary Color](https://img.shields.io/badge/Secondary%20Color-rgb(67%2C%2075%2C%2082)-darkgrey)
-* ![Font Primary Color](https://img.shields.io/badge/Font%20Primary%20Color-rgb(237%2C%20236%2C%20238)-black)
-* ![Font Secondary Color](https://img.shields.io/badge/Font%20Secondary%20Color-rgb(81%2C%2080%2C%2080)-darkgrey)
-* ![Footer Background Color](https://img.shields.io/badge/Footer%20Background%20Color-rgb(17%2C%2017%2C%2017)-black)
+* ![Main Color](https://img.shields.io/badge/Main%20Color-rgb(0%2C%200%2C%200)?style=flat-square&color=000000)
+* ![Font Secondary Color](https://img.shields.io/badge/Font%20Secondary%20Color-rgb(81%2C%2080%2C%2080)?style=flat-square&color=515050)
+* ![Font Primary Color](https://img.shields.io/badge/Font%20Primary%20Color-rgb(237%2C%20236%2C%20238)?style=flat-square&color=EDECEE)
+* ![Secondary Color](https://img.shields.io/badge/Secondary%20Color-rgb(67%2C%2075%2C%2082)?style=flat-square&color=434B52)
+* ![Footer Background Color](https://img.shields.io/badge/Footer%20Background%20Color-rgb(17%2C%2017%2C%2017)?style=flat-square&color=111111)
 
 ## Font
 
