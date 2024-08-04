@@ -97,7 +97,6 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 
 ### Desarrollado con:
-- - -
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
@@ -159,7 +158,6 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
 
 ## Estructura del Proyecto
-- - -
 
 La estructura del proyecto está organizada de la siguiente manera:
 
