@@ -100,7 +100,8 @@ Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrado
 
 Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
-#Desarrollo en general:
+#### Desarrollo en general:
+
 * [![JavaScript][JavaScript.com]][JavaScript-url]
 * [![CSS][CSS.com]][CSS-url]
 * [![HTML][HTML.com]][HTML-url]
@@ -108,12 +109,13 @@ Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 * [![AOS][AOS.com]][AOS-url]
 * [![SweetAlert][SweetAlert.com]][SweetAlert-url]
 
-#Control de versionado y deploy de demo:
+#### Control de versionado y deploy de demo:
+
 [![GitHub][GitHub.com]][GitHub-url]
 [![Git][Git.com]][Git-url]
 [![GitHub Pages][GitHubPages.com]][GitHubPages-url]
 
-Personalmente se optó para el desarrollo de este proyecto el uso de:
+#### Personalmente se optó para el desarrollo de este proyecto el uso de:
 
 [![VSCode][VSCode.com]][VSCode-url]
 [![LiveServer][LiveServer.com]][LiveServer-url]
