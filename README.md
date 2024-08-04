@@ -93,22 +93,20 @@ Al desarrollarlo se puso el foco más que nada en la reutilización de código p
 <br><br>
 Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrador para el curso de Desarrollador Fullstack, brindado por [CILSA en Argentina](https://www.cilsa.org/).
 
-Use the `BLANK_README.md` to get started.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### Desarrollado con:
 
-### Built With
+Para este proyecto se usaron las siguientes técnologias, lenguajes y librerias:
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* [![HTML][Next.js]][Next-url]
+* [![CSS][React.js]][React-url]
+* [![Bootstrap][Vue.js]][Vue-url]
+* [![BootStrap][Angular.io]][Angular-url]
+* [![JavaScript][Svelte.dev]][Svelte-url]
+* [![Javascript][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
