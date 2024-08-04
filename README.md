@@ -84,18 +84,14 @@
 
 [![Product Name Screen Shot][product-screenshot]]([https://example.com](https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg))
 
-  <a href="[https://github.com/othneildrew/Best-README-Template](https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg)">
-    <img src="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.png](https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg" alt="Logo" width="80" height="80">
+  <a href="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg">
+    <img src="https://raw.githubusercontent.com/Br1-O/bakery-store/main/assets/resources/images/imgs/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Este proyecto se trata de un Ecommerce para una panaderia, donde el comercio objetivo pueda posicionar y vender de forma online sus productos, contactar con posibles clientes, y hacer saber sobre ellos, su labor e historia. 
+Al desarrollarlo se puso el foco más que nada en la reutilización de código por medio de componentes e intentando hacerlo lo más intuitivo posible, para que todo pueda ser fácilmente modificable en el futuro. De esta forma es posible adaptar diferentes estilos, separadores y componentes a las diferentes páginas en base a los requerimientos del comercio, sin tener que realizar mayores cambios que la integración de los componentes o datos de variables fácilmente identificables.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Originalmente se desarrolló este proyecto bajo el marco de un trabajo integrador para el curso de Desarrollador Fullstack, brindado por [CILSA en Argentina](https://www.cilsa.org/).
 
 Use the `BLANK_README.md` to get started.
 
